@@ -1,0 +1,45 @@
+.btn {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 41px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    line-height: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   
+    &:hover {
+        transition: 0.2s;
+    }
+
+    &_theme-white {
+        background: $white;
+        color: $pinegreen;
+
+        &:hover {
+            background: $green;
+            color: $white;
+        }
+    }
+
+    &_theme-green {
+        background: $pinegreen;
+        color: $white;
+
+        &:hover {
+            background: #2E4E3F;
+        }
+    }
+
+    &_theme-transp {
+        background: transparent;
+        color: $green;
+        text-transform: none;
+        font-weight: normal;
+
+        &:hover {
+            color: $black;
+        }
+    }
+}

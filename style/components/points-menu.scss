@@ -1,0 +1,31 @@
+.points-menu {
+    position: fixed;
+    top: 20%;
+    right: 3%;
+    z-index: $z-points-menu;
+}
+
+.points-menu__item {
+    width: 16px;
+    height: 16px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    position: relative;
+
+    &_active {
+        border-color: $white;
+    }
+}
+
+.points-menu__link {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: $white;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
