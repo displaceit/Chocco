@@ -1,11 +1,11 @@
 .benefits-section {
     position: relative;
-    background: url("../../img/benefits/benefit_decor_bckgr.svg") left top 30% no-repeat;
+    background: url("/img/benefits/benefit_decor_bckgr.svg") left top 30% no-repeat;
 
     &::before {
-        content: url("../../img/benefits/benefit_decor_1.svg");
+        content: url("/img/benefits/benefit_decor_1.svg");
         position: absolute;
-        bottom: -15px;
+        bottom: 0;
         left: 0;
 
     }

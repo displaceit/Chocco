@@ -75,7 +75,7 @@ img {
 }
 
 .hero {
-  background: url("../../img/backg/leafs_bckg.svg") right bottom no-repeat;
+  background: url("/img/backg/leafs_bckg.svg") right bottom no-repeat;
   background-color: #61C4D9;
   height: 100vh;
   min-height: 650px;
@@ -84,15 +84,15 @@ img {
 }
 .hero:before {
   position: absolute;
-  content: url("../../img/backg/leaf_blur.svg");
+  content: url("/img/backg/leaf_blur.svg");
   bottom: -40px;
   left: 2%;
 }
 .hero:after {
   position: absolute;
-  content: url("../../img/backg/leaf_big.svg");
+  content: url("/img/decor/hero_1.svg");
   right: 0;
-  top: 65%;
+  top: 30%;
 }
 .hero__container {
   display: flex;
@@ -100,7 +100,7 @@ img {
   justify-content: space-between;
   height: 100%;
   padding: 24px 0 50px;
-  background: url("../../img/backg/candybar.svg") right center/50% auto no-repeat;
+  background: url("/img/backg/candybar.svg") right center/50% auto no-repeat;
 }
 .hero__text-section {
   width: 50%;
@@ -232,7 +232,6 @@ img {
   min-height: 650px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .section__title {
   font-size: 48px;
@@ -264,7 +263,7 @@ img {
   position: relative;
 }
 .benefits__item::before {
-  content: url("../../img/benefits/benefit_separator.svg");
+  content: url("/img/benefits/benefit_separator.svg");
   position: absolute;
   top: 55px;
   right: 0;
@@ -316,12 +315,12 @@ img {
 
 .benefits-section {
   position: relative;
-  background: url("../../img/benefits/benefit_decor_bckgr.svg") left top 30% no-repeat;
+  background: url("/img/benefits/benefit_decor_bckgr.svg") left top 30% no-repeat;
 }
 .benefits-section::before {
-  content: url("../../img/benefits/benefit_decor_1.svg");
+  content: url("/img/benefits/benefit_decor_1.svg");
   position: absolute;
-  bottom: -15px;
+  bottom: 0;
   left: 0;
 }
 
@@ -346,7 +345,7 @@ img {
 }
 .feedback__display::after {
   position: absolute;
-  content: url("../../img/feedback/feedback_bckgr.svg");
+  content: url("/img/feedback/feedback_bckgr.svg");
   right: 0;
   top: 5%;
 }
@@ -397,16 +396,16 @@ img {
 
 .feedback-section {
   position: relative;
-  background: url("../../img/feedback/feedback_sect_bckgr.svg") left bottom no-repeat;
+  background: url("/img/feedback/feedback_sect_bckgr.svg") left bottom no-repeat;
 }
 .feedback-section::before {
-  content: url("../../img/feedback/feedback_sect_berry.svg");
+  content: url("/img/feedback/feedback_sect_berry.svg");
   position: absolute;
   bottom: -38px;
   left: 0;
 }
 .feedback-section::after {
-  content: url("../../img/feedback/feedback_sect_wmelon.svg");
+  content: url("/img/feedback/feedback_sect_wmelon.svg");
   position: absolute;
   right: 24px;
   top: -15px;
@@ -437,8 +436,20 @@ img {
 }
 
 .order-section {
-  background: #61C4D9;
+  background: url("/img/backg/cta.svg") top center no-repeat;
   position: relative;
+}
+.order-section::before {
+  position: absolute;
+  content: url("/img/order/decor_2.svg");
+  top: 45%;
+  right: 0;
+}
+.order-section::after {
+  position: absolute;
+  content: url("/img/order/decor_3.svg");
+  top: 58%;
+  left: 0;
 }
 
 .order__title {
@@ -537,7 +548,7 @@ img {
   border-radius: 4px;
 }
 .radio_checkbox .radio__visible::before {
-  background: url("../../img/icons/checkmark.svg") center center no-repeat;
+  background: url("/img/icons/checkmark.svg") center center no-repeat;
 }
 
 .points-menu {
@@ -546,7 +557,6 @@ img {
   right: 3%;
   z-index: 100;
 }
-
 .points-menu__item {
   width: 16px;
   height: 16px;
@@ -557,6 +567,11 @@ img {
 }
 .points-menu__item_active {
   border-color: #fff;
+}
+.points-menu__item:hover {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #fff;
 }
 
 .points-menu__link {

@@ -1,16 +1,16 @@
 .feedback-section {
     position: relative;
-    background: url("../../img/feedback/feedback_sect_bckgr.svg") left bottom no-repeat;
+    background: url("/img/feedback/feedback_sect_bckgr.svg") left bottom no-repeat;
 
     &::before {
-        content: url("../../img/feedback/feedback_sect_berry.svg");
+        content: url("/img/feedback/feedback_sect_berry.svg");
         position: absolute;
         bottom: -38px;
         left: 0;
     }
 
     &::after {
-        content: url("../../img/feedback/feedback_sect_wmelon.svg");
+        content: url("/img/feedback/feedback_sect_wmelon.svg");
         position: absolute;
         right: 24px;
         top: -15px;
